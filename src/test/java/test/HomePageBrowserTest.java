@@ -30,7 +30,7 @@ public class HomePageBrowserTest {
 	public void testHomePage() {
 		String path = System.getProperty("user.dir");
         System.out.println("["+path+"]");
-		String html = path + "\\src\\test\\resources\\index.html";
+		String html = path + "/src/test/resources/index.html";
 		System.out.println("["+html+"]");
 
 		browser.get("file:"+ html);
