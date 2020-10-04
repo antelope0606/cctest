@@ -35,6 +35,12 @@ public class HomePageBrowserTest {
 
 		browser.get("file:"+ html);
 		
+		try {
+			Thread.sleep(10000);
+		} catch (Exception e) {
+			System.exit(0);
+		}
+		
 		//String titleText = browser.getTitle();
 		//Assert.assertEquals("index", titleText);
 
